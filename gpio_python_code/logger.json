@@ -1,0 +1,5 @@
+{
+	"output_file":"/home/pi/gpio_python_code/logger.csv",
+	"interval":60,
+	"count":5
+}
