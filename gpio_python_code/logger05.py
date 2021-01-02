@@ -12,6 +12,7 @@ import sched, time, threading
 # {
 #     "currentTemperature": FLOAT_VALUE
 # }
+#
 
 scheduler = sched.scheduler(time.time, time.sleep)
 reading_active=False
