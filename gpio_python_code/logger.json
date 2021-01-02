@@ -1,5 +1,12 @@
 {
-	"output_file":"/home/pi/gpio_python_code/logger.csv",
+	"output_file":"/var/www/html/temps.html",
+	"csv_file":"/home/pi/gpio_python_code/logger.csv",
 	"interval":60,
-	"count":5
+	"count":10,
+	"devices":
+		[
+			{"id":"28-000009fb44e8", "name":"bready","index":1},
+			{"id":"28-0114500041aa", "name":"external1","index":2},
+			{"id":"28-01144fea7daa", "name":"external2","index":3}
+		]
 }
